@@ -1,0 +1,21 @@
+dependencies:
+- name: mysql
+  repository: https://charts.bitnami.com/bitnami
+  version: 9.12.3
+- name: mongodb
+  repository: https://charts.bitnami.com/bitnami
+  version: 13.9.4
+- name: kafka
+  repository: https://charts.bitnami.com/bitnami
+  version: 30.1.6
+- name: grafana
+  repository: https://grafana.github.io/helm-charts
+  version: 7.3.0
+- name: prometheus
+  repository: https://prometheus-community.github.io/helm-charts
+  version: 25.11.0
+- name: airflow
+  repository: https://airflow.apache.org
+  version: 1.9.0
+digest: sha256:fb6765ed467d9c1c7208d34c78bfd1d1755f5696e12d6c74d5a0087a1d58539e
+generated: "2025-09-29T10:37:53.355467262Z"
